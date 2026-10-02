@@ -132,7 +132,7 @@ function App() {
     <div className="storefront">
       <div className="announcement">Free shipping on orders over $45 <span>•</span> Roasted fresh, shipped fast</div>
       <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="Morrow Coffee home"><span className="wordmark-mark">m.</span> morrow<span className="wordmark-note">COFFEE CO.</span></a>
+        <a className="wordmark" href="#top" aria-label="Sipsy Coffee home"><span className="wordmark-mark">B.</span> Sipsy<span className="wordmark-note">COFFEE CO.</span></a>
         <nav className="main-nav" aria-label="Main navigation">
           <a href="#shop">Shop coffee</a>
           <a href="#story">Our approach</a>
@@ -207,7 +207,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="site-footer"><a className="wordmark footer-wordmark" href="#top"><span className="wordmark-mark">m.</span> morrow</a><span>GOOD COFFEE FOR THE IN-BETWEEN.</span><span>© MORROW COFFEE CO. 2026</span></footer>
+      <footer className="site-footer"><a className="wordmark footer-wordmark" href="#top"><span className="wordmark-mark">B.</span> Sipsy</a><span>GOOD COFFEE FOR THE IN-BETWEEN.</span><span>© SIPSY COFFEE CO. 2026</span></footer>
 
       {cartOpen && <div className="cart-layer" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setCartOpen(false) }}>
         <aside className="cart-drawer" aria-label="Shopping bag">
