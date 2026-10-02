@@ -1,4 +1,4 @@
-# Morrow Coffee Co.
+# SIPSY Coffee Co.
 
 A responsive coffee shop storefront built with React and Vite. The catalog loads hot coffee menu items from the public SampleAPIs endpoint and falls back to a curated local catalog when the API is unavailable. Shopping bag contents persist in local storage.
 
